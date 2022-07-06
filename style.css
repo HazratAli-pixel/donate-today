@@ -31,7 +31,7 @@ section{
 }
 .description{
     font-family: 'Gulzar', serif;
-    margin: 0px 300px;
+    margin: 20px 100px;
     word-spacing: 4px;
     font-size: 20px;
 }
@@ -44,12 +44,12 @@ section{
     border-radius: 10px;
     margin-top: 20px;
 }
-.amount-info, .donate-plan{
+.common-design{
     text-align: center;
     margin-top: 80px;
 }
 .amount-btn{
-    margin-top: 25px;
+    margin: 25px;
     border: 2px solid aliceblue;
     margin: 20px 10px;
     background-color: aliceblue;
@@ -79,16 +79,13 @@ section{
     text-align: center;
     font-size: 20px;
     padding: 10px;
+    margin: 25px 0px;
 }
 .card-section{
     margin: 15px;
     display: flex;
 }
-.donate-plan .description{
-    margin: 0px 200px;
-    margin-bottom: 30px;
 
-}
 .card{
     width: 350px;
     height: auto;
@@ -130,11 +127,57 @@ section{
     font-size: 20px;
 }
 
+.input-group {
+    background-color: rgb(255, 232, 236);
+    width: 80%;
+    padding: 70px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 25px;
+    position: relative;
+}
 
+  .form-control {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 35%;
+    font-size: 18px;
+    padding: 10px;
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.subscribe-btn{
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 25%;
+    font-size: 18px;
+    padding: 10px;
+    color: #f9f9fa;
+    background-color: rgb(240, 10, 10);
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
 
 footer{
     text-align: center;
-    height: 250px;
-    padding: 20px;
-    background-color: rgb(11, 75, 117, .5);
+    background-color: rgb(2, 16, 27);
+}
+footer h1{
+    padding: 20px 0;
+    color: rgb(214, 107, 107);
+}
+footer a, footer p{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 50px;
 }
