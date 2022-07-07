@@ -107,6 +107,7 @@ section{
     width: 33.33%;
     background-color: rgba(121, 230, 117, 0.5);
 }
+
 #card-2{
     width: 33.33%;
     background-color: rgba(108, 219, 219, 0.5);
@@ -114,6 +115,10 @@ section{
 #card-3{
     width: 33.33%;
     background-color: rgba(224, 94, 218, 0.5);
+}
+#cardd-1{
+    width: 33.33%;
+    background: linear-gradient(rgba(224, 75, 217, 0.5), rgba(108, 219, 219, 0.5));
 }
 .card .card-icon{
     position: absolute;
@@ -125,6 +130,7 @@ section{
     -ms-transform: translate(-50%);
     -o-transform: translate(-50%);
 }
+
 .card .card-title{
     padding-top: 80px;
     font-size: 25px;
@@ -166,8 +172,21 @@ section{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.card-shadow{
+    box-shadow: 10px 7px 7px rgb(163, 153, 153);
+}
 
-
+.card-border{
+    border: 10px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
 
 
 
