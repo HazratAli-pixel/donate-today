@@ -6,7 +6,7 @@
 }
 section{
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 1150px;
   }
 .banner{
@@ -31,7 +31,13 @@ section{
 }
 .description{
     font-family: 'Gulzar', serif;
-    margin: 20px 100px;
+    margin: 20px 200px;
+    word-spacing: 4px;
+    font-size: 20px;
+}
+#sub{
+    font-family: 'Gulzar', serif;
+    margin: 20px 250px;
     word-spacing: 4px;
     font-size: 20px;
 }
@@ -75,7 +81,7 @@ section{
 .amount-input{
     width: 870px;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    border-bottom: 1px solid rgba(112, 107, 107, 0.5);
     text-align: center;
     font-size: 20px;
     padding: 10px;
@@ -87,7 +93,6 @@ section{
 }
 
 .card{
-    width: 350px;
     height: auto;
     padding: 20px;
     margin: 0 10px;
@@ -99,12 +104,15 @@ section{
     position: relative;
 }
 #card-1{
+    width: 33.33%;
     background-color: rgba(121, 230, 117, 0.5);
 }
 #card-2{
+    width: 33.33%;
     background-color: rgba(108, 219, 219, 0.5);
 }
 #card-3{
+    width: 33.33%;
     background-color: rgba(224, 94, 218, 0.5);
 }
 .card .card-icon{
@@ -126,10 +134,47 @@ section{
 .card .card-description{
     font-size: 20px;
 }
+.xtra-part{
+    display: flex;
+    width: 98%;
+    padding: 15px;
+    margin: 0px auto;
+}
+.about{
+    width: 50%;
+    padding: 2% 50px ;
+}
+.about h1{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.about p{
+    font-family: 'Gulzar', serif;
+    word-spacing: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.photo{
+    width: 50%;
+    padding: 0px 50px ;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+
+
 
 .input-group {
     background-color: rgb(255, 232, 236);
-    width: 80%;
+    width: 70%;
     padding: 70px;
     margin: 0 auto;
     border-radius: 8px;
@@ -142,7 +187,7 @@ section{
     left: 40%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 35%;
+    width: 43%;
     font-size: 18px;
     padding: 10px;
     color: #212529;
@@ -157,7 +202,7 @@ section{
     left: 70%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 25%;
+    width: 17%;
     font-size: 18px;
     padding: 10px;
     color: #f9f9fa;
